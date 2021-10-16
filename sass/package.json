@@ -15,8 +15,6 @@
   "author": "JE",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.4",
-    "jquery": "^3.6.0",
-    "underscore": "^1.13.1"
+    "gulp": "^4.0.2"
   }
 }
