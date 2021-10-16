@@ -22,15 +22,14 @@ function squashImages(done) {
     done();
 }
 
-function sayHi(done) {
-    console.log('hello from Gulp! Easy Peasy!');
-
-    // you can do all kinds of fun stuff here
-    done();
+function watch() {
+    console.log('watching files...');
+    gulp.watch('sass/**/*.scss', compileSass);
+    gulp.watch('images/**', squashImages);
 }
 
 export { 
-    sayHi as hello, 
+    watch as default, 
     squashImages as crunch,
     compileSass as compile
 }
