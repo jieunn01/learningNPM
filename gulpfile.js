@@ -17,7 +17,7 @@ function compileSass(done) {
 function squashImages(done) {
     gulp.src('images/**') // grab everything in the images folder
 		.pipe(imagemin()) // run every image through the imagemin engine
-        .pipe(gulp.dest('images/dist')) // put the optimized images here
+        .pipe(gulp.dest('dist')) // put the optimized images here
         
     done();
 }
