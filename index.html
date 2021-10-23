@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Fetch </title>
+
+    <link rel="stylesheet" href="css/main.css" >
+</head>
+<body>
+    <main>
+        <h1>My Awesome Team</h1>
+        <!-- this is where our dynamic data will go -->
+        <section id="team-members"></section>
+    </main>
+
+    <!-- templates goes here, by default, template tages don't get rendered into the view-->
+    <template id="bio-template">
+        <section class="bio-panel">
+            <div class="p_avatar">
+                <img src="" alt="">
+            </div>
+    
+            <h2 class="p_name">slug</h2>
+            <h3 class="p_role">slug</h3>
+            <p class="p-description">
+                slug
+            </p>
+        </section>
+    </template>
+    <!-- end template -->
+
+    <script src="js/main.js" type="module" defer></script>
+</body>
+</html>
