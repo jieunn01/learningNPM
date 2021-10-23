@@ -2,6 +2,7 @@
     $db_dsn = array( 
         'host' => 'localhost', // FIP -> when you go live
         'dbname' => 'newProfData', // update this with your database name
+        //******** change name 
         'charset' => 'utf8'
     );
 
